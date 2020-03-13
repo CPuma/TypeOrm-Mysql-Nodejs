@@ -1,0 +1,35 @@
+{
+  "name": "typeorm-mysql-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node dist/index.js",
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPuma/TypeOrm-Mysql-Nodejs.git"
+  },
+  "author": "R@sec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CPuma/TypeOrm-Mysql-Nodejs/issues"
+  },
+  "homepage": "https://github.com/CPuma/TypeOrm-Mysql-Nodejs#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.3",
+    "@types/morgan": "^1.9.0",
+    "nodemon": "^2.0.2",
+    "tsc-watch": "^4.2.3",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "typeorm": "^0.2.24"
+  }
+}
