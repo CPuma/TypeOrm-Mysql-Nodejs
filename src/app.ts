@@ -8,6 +8,6 @@ app.use(cors());
 app.use(morgan("dev"));
 app.use(express.json());
 
-app.use("users", userRouter);
+app.use("/api/users", userRouter);
 
 export default app;
